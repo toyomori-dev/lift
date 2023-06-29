@@ -1,0 +1,163 @@
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo {
+    height: 150px;
+}
+
+.ativo {
+    text-decoration: underline;
+}
+
+main {
+    padding-top: 50px;
+    font-size: 19px;
+    color: white;
+    height: 100%;
+}
+
+
+.video-item {
+    flex: 1;
+    margin: 0 10px;
+}
+
+main>div>p {
+    text-align: left;
+    text-indent: 2em;
+    margin: 0 10px;
+}
+
+nav {
+    height: 150px;
+    background-color: #0E0C36;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.contato-item {
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.contato-form {
+    margin-top: 30px;
+}
+
+.trabalhe-form textarea,
+.trabalhe-container textarea,
+.trabalhe-container input,
+.trabalhe-container label {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.contato-form button,
+.trabalhe-form button,
+.trabalhe-container button {
+    padding: 10px 20px;
+    background-color: #312AB5;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.trabalhe-container,
+.contato-container {
+    background-color: #1F1B75;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.trabalhe-container {
+    background-color: #1F1B75;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.trabalhe-container label,
+.trabalhe-container input,
+.trabalhe-container textarea {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.servico-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.servico-container {
+    background-color: #1F1B75;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.imgserv,
+.imgport1 {
+    height: 200px;
+    width: 100%;
+}
+
+.servico-image {
+    width: 100%;
+    height: 200px;
+    background-color: #ddd;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    height: 100px;
+    background-color: #0E0C36;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.footer-left p {
+    margin: 0;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-right h3,
+.footer-right p {
+    margin: 5px 0;
+}
